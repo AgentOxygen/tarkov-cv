@@ -1,0 +1,13 @@
+1) Check last frame of previous to first frame of current:
+	a) If same number of filled cells in same positions, combine
+	b) Run this through entire list to concatenate groups
+2) Go through each group
+	a) Check and log container type
+	b) Get 'A' number of filled cells in the first frame
+	c) Check frames until a tag is found
+	d) Log tag and position when detected, add to list
+	e) Compare tags found in future to this list to prevent duplicates
+
+
+Idea:
+read first letter to narrow search for items
